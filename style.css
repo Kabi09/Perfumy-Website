@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+
+
+                        /*****Nav Bar*******/
+#navbar{
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: black;
+
+}
+.navbar-brand{
+    font-weight: 1000;
+    color:yellow!important;
+    font-size: 2rem !important;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    
+}
+.nav-item{
+    color:white;
+    border-bottom: 2px solid transparent;
+}
+.nav-item:hover{
+    color:white;
+    border-bottom: 2px solid yellow;
+
+}
+#signinbtn,#signupbtn{
+    background-color: yellow;
+    width: 5rem;
+    border-radius: 25px;
+    
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+                                          /**Home**/
+
+
+#home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url("img/back2.jpg");
+    background-size: cover;
+    background-position:center ;
+    flex-direction: column;
+
+}
+#home h1{
+    font-size: 100px;
+    color:rgb(150, 150, 150);
+    letter-spacing: 3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 1px 0px #ccc,
+    0px 1px 0px #ccc,
+                0px 3px 0px #ccc,
+                0px 4px 0px #ccc,
+                0px 5px 0px #ccc,
+                0px 6px 0px #ccc,
+                0px 7px 0px #ccc;
+                margin-bottom: 30px;
+}
+
+#home p{
+    width: 80%;
+    color:rgb(236, 211, 179);
+    margin-bottom: 30px;
+}
+#home .input-group{
+    width:40%;
+    height: 45%;
+}
+.emailsend{
+    background-color: rgb(172, 172, 5);
+    box-shadow: 2px 4px 5px rgba(0,0,0,.5);
+
+
+}
+
+#home input{
+    background-color: rgb(247, 240, 232);
+    border-radius: 5px;
+}
+#home button{
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+                              /****Products*****/
+
+#product{
+    background: #e5e5e5;
+}
+
+
+#product h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.card{
+    height: 325px;
+    width: 325px;
+
+    background: #e5e5e5 !important;
+   border: none !important;
+   box-shadow: 15px 20px 20px rgba(0,0,0,.6),
+   inset 4px 4px 10px white;
+   justify-content: center;
+   align-items: center;
+   margin: 30px 1px;
+}
+
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+    inset -4px -4px 10px white;
+    background:black !important ;
+    color:yellow !important;
+  
+
+}
+#product a:hover{
+    color:whitesmoke;
+    background-color:rgb(68, 68, 98);
+}
+#product a{
+    
+    background-color:blue;
+}
+
+
+
+
+
+
+                                        /**Contact***/
+#contact input{
+    margin: 10px;
+    
+}
+
+#contact textarea{
+    margin: 10px;
+    
+}
+
+#contact .contactus{
+    margin-top: 100px;
+}
+
+
+#contact .sendmessage{
+    margin: 10px;
+    
+    font-size: 1.5rem;
+
+}
+
+
+#meassageicon svg{
+    height: 100px;
+    width: 100px;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 30px;
+    
+}
+
+#meassageicon .other{
+    margin-top: 50px;
+    
+    
+}
+
+
+footer{
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,.6);
+    text-align: center;
+    color:white;
+    padding: 4px;
+}
+
